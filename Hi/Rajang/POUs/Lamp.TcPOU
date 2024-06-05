@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="Lamp" Id="{469f8485-acfa-458d-ac11-64caf7a17e5c}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM Lamp
+VAR
+	countercounter : int;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[countercounter := countercounter +1;]]></ST>
+    </Implementation>
+    <LineIds Name="Lamp">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<TcSmItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2012/07/TcSmProject" TcSmVersion="1.0" TcVersion="3.1.4024.56" ClassName="CNestedPlcProjDef">
+	<Project GUID="{37F2F36B-32F0-41E5-8B10-EA9E4F67894D}" Name="Rajang" PrjFilePath="..\..\Rajang\Rajang.plcproj" TmcFilePath="..\..\Rajang\Rajang.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2">
+			<Name>Rajang Instance</Name>
+			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
+			<Contexts>
+				<Context>
+					<Id>1</Id>
+					<Name>Default</Name>
+				</Context>
+			</Contexts>
+		</Instance>
+	</Project>
+</TcSmItem>
